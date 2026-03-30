@@ -27,7 +27,7 @@ layers:
   - C
   - V
   - B
-  - F14
+  - Ctl+C
   - /
   - N
   - M
@@ -37,11 +37,11 @@ layers:
   - ESCAPE
   - LEFT CONTROL
   - LEFT ALT
-  - {t: '&to_layer_0 TAB', h: '5'}
-  - {t: LEFT COMMAND, h: '4'}
+  - LEFT COMMAND
+  - {t: SPACE, h: '5'}
   - {t: '&to_layer_0 LANG2', h: '3'}
-  - {t: '&to_layer_0 SPACE', h: '2'}
-  - {t: LANG1, h: '1'}
+  - {t: '&to_layer_0 LANG1', h: '2'}
+  - {t: DELETE, h: '1'}
   - LEFT ALT
   '1':
   - '!'
@@ -108,7 +108,7 @@ layers:
   - F6
   - F7
   - F8
-  - LEFT SHIFT
+  - '0'
   - '1'
   - '2'
   - '3'
@@ -210,9 +210,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - BT CLR ALL
   '5':
@@ -252,8 +252,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -304,5 +304,5 @@ layers:
 combos:
 - p: [39, 38]
   k: {t: ESC, h: '4'}
-- p: [32, 40]
-  k: DELETE
+- p: [11, 12]
+  k: TAB
