@@ -29,11 +29,6 @@
             key-positions = <39 38>;
         };
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 12>;
-        };
-
         delete {
             bindings = <&kp DELETE>;
             key-positions = <32 40>;
